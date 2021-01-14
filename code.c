@@ -32,7 +32,7 @@ void error_method(double *error_array, double *exact_solution, double *num_solut
 }
 double error_sum_method(double *error_array, int grid_points)
 {
-	error_sum=0;
+	double error_sum=0;
 	for(int i=0;i<grid_points;i++)
 	{		
 		error_sum+=error_array[i];
@@ -51,12 +51,12 @@ void numerical_solution(double *u, double *uxx, int grid_points, double delta_t,
 		u[j]+=k*delta_t*uxx[j];
 	}
 }
-void uxx_calculate(double *uxx, double *u, int grid_points, double interval_length)
+void uxx_calculate(double *uxx, double *u, int grid_points, double interval_length)  
 {
-	uxx[0]= (u[1]-2*u[0]+u[grid_points-2])*interval_length*interval_length/((grid_points-1)*(grid_points-1));
+	uxx[0]= (u[1]-2*u[0]+u[grid_points-2])*(grid_points-1)*(grid_points-1)/(interval_length*interval_length);
 	uxx[grid_points-1]=uxx[0];
 	for(int i=1; i<grid_points-1;i++)
-		uxx[i] = (u[i+1]-2*u[i]+u[i-1])*interval_length*interval_length/((grid_points-1)*(grid_points-1));
+		uxx[i] = (u[i+1]-2*u[i]+u[i-1])*(grid_points-1)*(grid_points-1)/(interval_length*interval_length);
 }
 int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] = numerical and analytical solution printing time step
 {
@@ -71,6 +71,7 @@ int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] =
 	print_time_step[1]=100;
 	print_time_step[2]=500;
 	print_time_step[3]=1000;
+	int pts_length=4;				//print_time_step array length
 	
 	if(argc>1)					//for intializing printing time steps and grid points based on command line inputs
 	{
@@ -84,7 +85,10 @@ int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] =
 			}
 		}
 		if(argc>2)
+		{
 			tc=max(print_time_step, argc-1);
+			pts_length=argc-2;
+		}
 	}
 	
 	
@@ -107,9 +111,9 @@ int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] =
 		error_array[i]=(double *)malloc(time_steps*sizeof(double));
 	}*/
 	
-	double *u= (double *)malloc (grid_points*sizeof(double);  //solution
-	double *uxx= (double *)malloc (grid_points*sizeof(double);  //second derivative with respect to space
-	double *as= (double *)malloc (grid_points*sizeof(double);   //analytical solution
+	double *u= (double *)malloc (grid_points*sizeof(double));  //solution
+	double *uxx= (double *)malloc (grid_points*sizeof(double));  //second derivative with respect to space
+	double *as= (double *)malloc (grid_points*sizeof(double));   //analytical solution
 	double *error=(double *)malloc(grid_points*sizeof(double));  //for each grid points
 	double *error_sum= (double *)malloc(tc*sizeof(double)); 	//for sum of errors of each grid points at various time steps
 	
@@ -119,15 +123,23 @@ int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] =
 	//printf("\n%lf", analytical_solution[100][32]);
 	
 	initialization(u, grid_points, interval_length);
+	//printf("\n%lf",u[33]);
+	error_sum[0]=0;
 	
-	for(int i=0;i<=tc;i++)
+	for(int i=1;i<=tc;i++)
 	{
 		uxx_calculate(uxx, u, grid_points, interval_length);
-		numerical_solution(u, uxx, grid_points, delta_t, interval_length, k);  \\updates u to the next time step
+		/*if(i==1)
+			printf("\n%lf",uxx[32]);*/
+		numerical_solution(u, uxx, grid_points, delta_t, interval_length, k);  //updates u to the next time step
+		/*if(i==100)
+			printf("\n%lf",u[32]);*/
 		analytical_method(as, delta_t, grid_points, i, k, interval_length);
+		/*if(i==100)
+			printf("\n%lf",as[32]);*/
 		error_method(error, as, u, grid_points);
 		error_sum[i]= error_sum_method(error, grid_points);
-		for(int j=0;j<argc-2;j++)
+		for(int j=0;j<pts_length;j++)
 			if(print_time_step[j]==i)   //to dump the analytical and numerical solution
 			{
 				char Numsol[1000], Asol[1000];
@@ -139,7 +151,7 @@ int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] =
 	}
 	
 	char error_string[]="Sum of errors at each grid point for various time steps.txt";
-	print_to_file(error_sum, time_steps, delta_t, error_string);
+	print_to_file(error_sum, tc+1, delta_t, error_string);
 	
 		
 	free(error_sum);
