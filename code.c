@@ -140,7 +140,7 @@ int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] =
 		error_method(error, as, u, grid_points);
 		error_sum[i]= error_sum_method(error, grid_points);
 		for(int j=0;j<pts_length;j++)
-			if(print_time_step[j]==i)   //to dump the analytical and numerical solution
+			if(print_time_step[j]==i || print_time_step[j]==0)   //to dump the analytical and numerical solution. second statement since i is never 0.
 			{
 				char Numsol[1000], Asol[1000];
 				sprintf(Numsol,"Numerical solution at %dth time step for %d grid points.txt", i, grid_points-1);
