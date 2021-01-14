@@ -123,6 +123,8 @@ int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] =
 	//printf("\n%lf", analytical_solution[100][32]);
 	
 	initialization(u, grid_points, interval_length);
+	analytical_method(as, delta_t, grid_points, 0, k, interval_length);  //to initialize analytical solution at 0
+	
 	//printf("\n%lf",u[33]);
 	error_sum[0]=0;
 	for(int j=0;j<pts_length;j++)
