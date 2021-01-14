@@ -125,6 +125,15 @@ int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] =
 	initialization(u, grid_points, interval_length);
 	//printf("\n%lf",u[33]);
 	error_sum[0]=0;
+	for(int j=0;j<pts_length;j++)
+		if(print_time_step[j]==0)   //to dump the analytical and numerical solution at 0th time step.
+			{
+				char Numsol[1000], Asol[1000];
+				sprintf(Numsol,"Numerical solution at %dth time step for %d grid points.txt", 0, grid_points-1);
+				print_to_file(u, grid_points, (double)interval_length/(grid_points-1),Numsol);
+				sprintf(Asol,"Analytical solution at %dth time step for %d grid points.txt", 0, grid_points-1);
+				print_to_file(as, grid_points, (double)interval_length/(grid_points-1),Asol);
+			}
 	
 	for(int i=1;i<=tc;i++)
 	{
@@ -140,7 +149,7 @@ int main(int argc, char *argv[])     //arv[1] = number of grid points, argv[i] =
 		error_method(error, as, u, grid_points);
 		error_sum[i]= error_sum_method(error, grid_points);
 		for(int j=0;j<pts_length;j++)
-			if(print_time_step[j]==i || print_time_step[j]==0)   //to dump the analytical and numerical solution. second statement since i is never 0.
+			if(print_time_step[j]==i)   //to dump the analytical and numerical solution.
 			{
 				char Numsol[1000], Asol[1000];
 				sprintf(Numsol,"Numerical solution at %dth time step for %d grid points.txt", i, grid_points-1);
