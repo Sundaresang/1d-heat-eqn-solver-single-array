@@ -1,0 +1,116 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\renewcommand*{\thesection}{\alph{section}.}
+
+\author{Sundaresan G}
+%\title{Advertisement No. CDS/KA/SERB-SRG/DEC2020/RA}
+\begin{document}
+	
+\begin{titlepage}
+	\begin{center}
+		\vspace*{1cm}
+		
+		\textbf{\Large{Solution to the 1D Heat Equation}}
+		
+		\vspace{0.5cm}
+		Advertisement No. CDS/KA/SERB-SRG/DEC2020/RA
+		
+		\vspace{1.5cm}
+		
+		A report submitted for the application of\\
+		Project Assistant Position
+		
+		
+		\vfill
+		
+		\textbf{\large{Sundaresan G}}\\
+		Scientist/Engineer\\
+		ISRO Propulsion Complex
+		
+		\vspace{0.8cm}
+		
+		B.Tech Mechanical Engineering\\
+		Batch of 2016, NITT\\
+		
+	\end{center}
+\end{titlepage}
+	\section{Analytical Solution}
+	\begin{center}
+		\begin{tabular}{l l}
+			Given problem & $u_t=u_{xx}$\\		
+			Domain & $x=[0,1]$\\
+			Boundary condition & $u(0,t)=u(1,t),\
+			u_x(0,t)=u_x(1,t)$\\
+			Initial condition & $u(x,0)=sin(2\pi x)$
+		\end{tabular}
+	\end{center}
+	The given problem is a well posed homogenous linear PDE and has a unique solution for the given boundary (Neumann) and initial conditions.\\
+	The solution is derived as follows by variable separation:\\
+	
+	\begin{tabular}{r l}
+		Let & $u(x,t)=X(x)*T(t)$ \\
+		& $u_t=u_{xx} \implies XT_t=X_{xx}T$ \\
+		& ${X_{xx}\over X} = {T_t \over T} = \alpha$
+		
+				
+	\end{tabular} \\
+	($\alpha$ is a\ constant since LHS is only a function of x and RHS is a function of t)\\
+	
+	\begin{tabular}{l l}
+		Case 1: & $\alpha = 0$ \\
+		$\implies$ & $X=ax+b, \ T=c$ \\
+		$\implies$ & $u^{\alpha=0}=a_1 x + a_2$
+	\end{tabular} \\
+	
+	\begin{tabular}{l l}
+		Case 2: & $\alpha = \beta^2 > 0$ \\
+		$\implies$ & $X=ae^{\beta x}+be^{-\beta x}, \ T=ce^{\beta t^2}$ \\
+		$\implies$ & $u^{\alpha>0}=(b_1e^{\beta x}+b_2e^{-\beta x})e^{\beta t^2}$
+	\end{tabular} \\
+
+	where $b_1$ and $b_2$ are arbitary constants depending on $\beta$ \\
+	
+	\begin{tabular}{l l}
+		Case 3: & $\alpha = -\lambda^2 < 0$ \\
+		$\implies$ & $X=acos({\lambda x})+bsin({\lambda x}), \ T=ce^{-\lambda t^2}$ \\
+		$\implies$ & $u^{\alpha<0}=(c_1cos({\lambda x})+c_2sin({\lambda x}))e^{-\lambda t^2}$
+	\end{tabular} \\
+	
+	where $c_1$ and $c_2$ are arbitary constants depending on $\lambda$ \\
+	
+	Due to the homogenous and linear nature of the given PDE, the solution is given by \\ \\ 
+	
+	\begin{tabular}{r l l}
+		$u(x,t)$ &=& $a_1 x + a_2 + \sum_{\beta \in S_1}^{}((b_1(\beta)e^{\beta x}+b_2(\beta)e^{-\beta x})e^{\beta t^2})$\\
+		&& + $\sum_{\lambda \in S_2}^{}((c_1(\lambda)cos({\lambda x})+c_2(\lambda)sin({\lambda x}))e^{-\lambda t^2})$
+	\end{tabular} \\ \\ 
+	where $S_1$ and $S_2$ are countable subsets of Real numbers (since the summation should converge) \\ 
+	
+	Now the solution is finite even for $t \to \infty$ (by Physics of the heat equation with no external energy source). Hence $b_1$ and $b_2$ should be 0 for any value of $\beta$. \\
+	
+	$u(x,t) = a_1 x + a_2 + \sum_{\lambda \in S_2}^{}((c_1(\lambda)cos({\lambda x})+c_2(\lambda)sin({\lambda x}))e^{-\lambda t^2})$ \\
+	
+	Applying condition $u(0,t) = u(1,t)$, we get
+	
+	$a_2 + \sum_{\lambda \in S_2}^{}((c_1(\lambda))e^{-\lambda t^2}) = a_1 + a_2 + \sum_{\lambda \in S_2}^{}((c_1(\lambda)cos({\lambda })+c_2(\lambda)sin({\lambda}))e^{-\lambda t^2})$
+	
+	$\implies a_1 + \sum_{\lambda \in S_2}^{}([c_1(\lambda)(cos({\lambda })-1)+c_2(\lambda)sin({\lambda})]e^{-\lambda t^2}) = 0$ \\ 
+	
+	Since the above equation is true for any value of t, 
+	
+	\begin{center}
+		$a_1 = 0$ \hspace{30mm} and
+	\end{center}	
+	\begin{equation}
+	c_1(\lambda)(cos({\lambda })-1)+c_2(\lambda)sin({\lambda}) = 0 \hspace{20mm}  \text{for every $\lambda \in S_2$}
+	\end{equation} 
+	
+	
+	
+		
+	
+	
+	
+\end{document}

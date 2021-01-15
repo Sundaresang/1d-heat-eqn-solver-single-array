@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
-const double pi=3.14159265;
+const double pi=acos(-1.0);
 int max(int *h, int rows)
 {
 	int s=0;
@@ -77,24 +77,25 @@ int main(int argc, char *argv[])     //argv[1] = number of grid points, argv[i] 
 	if(argc>1)					//for intializing printing time steps and grid points based on command line inputs
 	{
 		grid_points=atoi(argv[1]);
-		for(int i=2; i<argc;i++)
-		{
-			print_time_step[i-2]=atoi(argv[i]);
-			if(print_time_step[i-2]==0 || print_time_step[i-2]>3000)
-			{
-				printf("\n Invalid time steps for printing. Please specify an integer between 1 and 3000 for every printing time step");
-			}
-		}
 		if(argc>2)
 		{
-			tc=max(print_time_step, argc-1);
+			for(int i=2; i<argc;i++)
+			{
+				print_time_step[i-2]=atoi(argv[i]);
+				if(print_time_step[i-2]==0 || print_time_step[i-2]>3000)   
+				{
+					printf("\n Invalid time steps for printing. Please specify an integer between 1 and 3000 for every printing time step");
+					return -1;
+				}
+			}
+			tc=max(print_time_step, argc-2);
 			pts_length=argc-2;
 		}
 	}
 	
 	
 		
-	if(grid_points==0 || grid_points>3000)
+	if(grid_points==0 || grid_points>220)		//the explicit scheme for the given problem with delta_t=0.00001 converges only if the grid points are less than 223 points
 	{
 		printf("\n Invalid number of grid points. Please specify number of grid points below 1000");
 		return -1;
