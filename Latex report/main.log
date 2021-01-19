@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2021.1.14)  16 JAN 2021 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2021.1.14)  19 JAN 2021 06:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -79,6 +79,14 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
+("D:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count187
+\float@exts=\toks20
+\float@box=\box47
+\@float@everytoks=\toks21
+\@floatcapt=\box48
+)
 ("D:\Program Files\MiKTeX 2.9\tex/latex/grffile\grffile.sty"
 Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
 y)
@@ -90,7 +98,7 @@ Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
+\KV@toks@=\toks22
 )
 ("D:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
@@ -125,15 +133,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("D:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count187
-\calc@Bcount=\count188
+\calc@Acount=\count188
+\calc@Bcount=\count189
 \calc@Adimen=\dimen146
 \calc@Bdimen=\dimen147
 \calc@Askip=\skip52
 \calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count189
+\calc@Ccount=\count190
 \calc@Cskip=\skip54
 )
 ("D:\Program Files\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.sty"
@@ -174,18 +182,18 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ("D:\Program Files\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.def"
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box47
-\AM@global@opts=\toks21
-\AM@pagecnt=\count190
-\AM@toc@title=\toks22
-\c@AM@survey=\count191
-\AM@templatesizebox=\box48
+\AM@pagebox=\box49
+\AM@global@opts=\toks23
+\AM@pagecnt=\count191
+\AM@toc@title=\toks24
+\c@AM@survey=\count192
+\AM@templatesizebox=\box50
 )
 ("D:\Program Files\MiKTeX 2.9\tex/latex/appendix\appendix.sty"
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count192
-\c@@ppsavesec=\count193
-\c@@ppsaveapp=\count194
+\c@@pps=\count193
+\c@@ppsavesec=\count194
+\c@@ppsaveapp=\count195
 )
 ("D:\Program Files\MiKTeX 2.9\tex/latex/parskip\parskip.sty"
 Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
@@ -198,49 +206,49 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 ("D:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count195
+\etb@tempcnta=\count196
 ))
 ("D:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count196
-\l__pdf_internal_box=\box49
+\l__kernel_color_stack_int=\count197
+\l__pdf_internal_box=\box51
 )
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
  ("D:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
+\scratchcounter=\count198
 \scratchdimen=\dimen150
-\scratchbox=\box50
-\nofMPsegments=\count198
-\nofMParguments=\count199
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count266
+\scratchbox=\box52
+\nofMPsegments=\count199
+\nofMParguments=\count266
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count267
 \MPscratchDim=\dimen151
-\MPnumerator=\count267
-\makeMPintoPDFobject=\count268
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count268
+\makeMPintoPDFobject=\count269
+\everyMPtoPDFconversion=\toks26
 ) ("D:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-\AtBeginShipoutBox=\box51
+\AtBeginShipoutBox=\box53
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/pdflscape\pdflscape.sty"
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -255,13 +263,13 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
 
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
@@ -270,112 +278,175 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 139.
+(amsmath)                 on input line 140.
 
 [3] [4]
-Package epstopdf Info: Source file: <Gnuplot/NSvsAS_plot_for_128_grid_points.ep
-s>
-(epstopdf)                    date: 2021-01-16 13:04:22
-(epstopdf)                    size: 168475 bytes
-(epstopdf)             Output file: <Gnuplot/NSvsAS_plot_for_128_grid_points-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2021-01-16 13:08:52
-(epstopdf)                    size: 31046 bytes
-(epstopdf)             Command: <epstopdf --outfile=Gnuplot/NSvsAS_plot_for_128
-_grid_points-eps-converted-to.pdf Gnuplot/NSvsAS_plot_for_128_grid_points.eps>
-(epstopdf)             \includegraphics on input line 182.
-Package epstopdf Info: Output file is already uptodate.
+Package epstopdf Info: Source file: <Gnuplot/NSvsAS_0_plot_for_128_grid_points.
+eps>
+(epstopdf)                    date: 2021-01-19 06:38:22
+(epstopdf)                    size: 56032 bytes
+(epstopdf)             Output file: <Gnuplot/NSvsAS_0_plot_for_128_grid_points-
+eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=Gnuplot/NSvsAS_0_plot_for_1
+28_grid_points-eps-converted-to.pdf Gnuplot/NSvsAS_0_plot_for_128_grid_points.e
+ps>
+(epstopdf)             \includegraphics on input line 183.
+runsystem(epstopdf --outfile=Gnuplot/NSvsAS_0_plot_for_128_grid_points-eps-conv
+erted-to.pdf Gnuplot/NSvsAS_0_plot_for_128_grid_points.eps)...executed (allowed
+).
+
+Package epstopdf Info: Result file: <Gnuplot/NSvsAS_0_plot_for_128_grid_points-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-19 06:38:26
+(epstopdf)                    size: 14976 bytes.
 
 
-pdfTeX warning: pdflatex.exe (file ./Gnuplot/NSvsAS_plot_for_128_grid_points-ep
-s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
-n <1.5> allowed
-<Gnuplot/NSvsAS_plot_for_128_grid_points-eps-converted-to.pdf, id=27, 361.35pt 
-x 216.81pt>
-File: Gnuplot/NSvsAS_plot_for_128_grid_points-eps-converted-to.pdf Graphic file
- (type pdf)
-<use Gnuplot/NSvsAS_plot_for_128_grid_points-eps-converted-to.pdf>
-Package pdftex.def Info: Gnuplot/NSvsAS_plot_for_128_grid_points-eps-converted-
-to.pdf  used on input line 182.
-(pdftex.def)             Requested size: 379.41768pt x 227.65059pt.
-[5 <./Gnuplot/NSvsAS_plot_for_128_grid_points-eps-converted-to.pdf>]
+pdfTeX warning: pdflatex.exe (file ./Gnuplot/NSvsAS_0_plot_for_128_grid_points-
+eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
+ion <1.5> allowed
+<Gnuplot/NSvsAS_0_plot_for_128_grid_points-eps-converted-to.pdf, id=27, 361.35p
+t x 216.81pt>
+File: Gnuplot/NSvsAS_0_plot_for_128_grid_points-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use Gnuplot/NSvsAS_0_plot_for_128_grid_points-eps-converted-to.pdf>
+Package pdftex.def Info: Gnuplot/NSvsAS_0_plot_for_128_grid_points-eps-converte
+d-to.pdf  used on input line 183.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+Package epstopdf Info: Source file: <Gnuplot/NSvsAS_100_plot_for_128_grid_point
+s.eps>
+(epstopdf)                    date: 2021-01-19 06:38:22
+(epstopdf)                    size: 56197 bytes
+(epstopdf)             Output file: <Gnuplot/NSvsAS_100_plot_for_128_grid_point
+s-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=Gnuplot/NSvsAS_100_plot_for
+_128_grid_points-eps-converted-to.pdf Gnuplot/NSvsAS_100_plot_for_128_grid_poin
+ts.eps>
+(epstopdf)             \includegraphics on input line 189.
+runsystem(epstopdf --outfile=Gnuplot/NSvsAS_100_plot_for_128_grid_points-eps-co
+nverted-to.pdf Gnuplot/NSvsAS_100_plot_for_128_grid_points.eps)...executed (all
+owed).
+
+Package epstopdf Info: Result file: <Gnuplot/NSvsAS_100_plot_for_128_grid_point
+s-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-19 06:38:27
+(epstopdf)                    size: 14961 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./Gnuplot/NSvsAS_100_plot_for_128_grid_point
+s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Gnuplot/NSvsAS_100_plot_for_128_grid_points-eps-converted-to.pdf, id=28, 361.3
+5pt x 216.81pt>
+File: Gnuplot/NSvsAS_100_plot_for_128_grid_points-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use Gnuplot/NSvsAS_100_plot_for_128_grid_points-eps-converted-to.pdf>
+Package pdftex.def Info: Gnuplot/NSvsAS_100_plot_for_128_grid_points-eps-conver
+ted-to.pdf  used on input line 189.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+[5 <./Gnuplot/NSvsAS_0_plot_for_128_grid_points-eps-converted-to.pdf> <./Gnuplo
+t/NSvsAS_100_plot_for_128_grid_points-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Gnuplot/NSvsAS_500_plot_for_128_grid_point
+s.eps>
+(epstopdf)                    date: 2021-01-19 06:38:22
+(epstopdf)                    size: 56811 bytes
+(epstopdf)             Output file: <Gnuplot/NSvsAS_500_plot_for_128_grid_point
+s-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=Gnuplot/NSvsAS_500_plot_for
+_128_grid_points-eps-converted-to.pdf Gnuplot/NSvsAS_500_plot_for_128_grid_poin
+ts.eps>
+(epstopdf)             \includegraphics on input line 197.
+runsystem(epstopdf --outfile=Gnuplot/NSvsAS_500_plot_for_128_grid_points-eps-co
+nverted-to.pdf Gnuplot/NSvsAS_500_plot_for_128_grid_points.eps)...executed (all
+owed).
+
+Package epstopdf Info: Result file: <Gnuplot/NSvsAS_500_plot_for_128_grid_point
+s-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-19 06:38:28
+(epstopdf)                    size: 14996 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./Gnuplot/NSvsAS_500_plot_for_128_grid_point
+s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Gnuplot/NSvsAS_500_plot_for_128_grid_points-eps-converted-to.pdf, id=44, 361.3
+5pt x 216.81pt>
+File: Gnuplot/NSvsAS_500_plot_for_128_grid_points-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use Gnuplot/NSvsAS_500_plot_for_128_grid_points-eps-converted-to.pdf>
+Package pdftex.def Info: Gnuplot/NSvsAS_500_plot_for_128_grid_points-eps-conver
+ted-to.pdf  used on input line 197.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+Package epstopdf Info: Source file: <Gnuplot/NSvsAS_1000_plot_for_128_grid_poin
+ts.eps>
+(epstopdf)                    date: 2021-01-19 06:38:22
+(epstopdf)                    size: 56153 bytes
+(epstopdf)             Output file: <Gnuplot/NSvsAS_1000_plot_for_128_grid_poin
+ts-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=Gnuplot/NSvsAS_1000_plot_fo
+r_128_grid_points-eps-converted-to.pdf Gnuplot/NSvsAS_1000_plot_for_128_grid_po
+ints.eps>
+(epstopdf)             \includegraphics on input line 203.
+runsystem(epstopdf --outfile=Gnuplot/NSvsAS_1000_plot_for_128_grid_points-eps-c
+onverted-to.pdf Gnuplot/NSvsAS_1000_plot_for_128_grid_points.eps)...executed (a
+llowed).
+
+Package epstopdf Info: Result file: <Gnuplot/NSvsAS_1000_plot_for_128_grid_poin
+ts-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-19 06:38:29
+(epstopdf)                    size: 14902 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./Gnuplot/NSvsAS_1000_plot_for_128_grid_poin
+ts-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
+ersion <1.5> allowed
+<Gnuplot/NSvsAS_1000_plot_for_128_grid_points-eps-converted-to.pdf, id=45, 361.
+35pt x 216.81pt>
+File: Gnuplot/NSvsAS_1000_plot_for_128_grid_points-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use Gnuplot/NSvsAS_1000_plot_for_128_grid_points-eps-converted-to.pdf>
+Package pdftex.def Info: Gnuplot/NSvsAS_1000_plot_for_128_grid_points-eps-conve
+rted-to.pdf  used on input line 203.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+[6 <./Gnuplot/NSvsAS_500_plot_for_128_grid_points-eps-converted-to.pdf> <./Gnup
+lot/NSvsAS_1000_plot_for_128_grid_points-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+
+ []
+
 Package epstopdf Info: Source file: <Gnuplot/Error_vs_time_for_128_grid_points.
 eps>
-(epstopdf)                    date: 2021-01-16 13:04:14
-(epstopdf)                    size: 134873 bytes
+(epstopdf)                    date: 2021-01-18 08:34:17
+(epstopdf)                    size: 128843 bytes
 (epstopdf)             Output file: <Gnuplot/Error_vs_time_for_128_grid_points-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-16 13:18:12
-(epstopdf)                    size: 24521 bytes
+(epstopdf)                    date: 2021-01-18 08:34:22
+(epstopdf)                    size: 23223 bytes
 (epstopdf)             Command: <epstopdf --outfile=Gnuplot/Error_vs_time_for_1
 28_grid_points-eps-converted-to.pdf Gnuplot/Error_vs_time_for_128_grid_points.e
 ps>
-(epstopdf)             \includegraphics on input line 192.
+(epstopdf)             \includegraphics on input line 219.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./Gnuplot/Error_vs_time_for_128_grid_points-
 eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-<Gnuplot/Error_vs_time_for_128_grid_points-eps-converted-to.pdf, id=37, 361.35p
+<Gnuplot/Error_vs_time_for_128_grid_points-eps-converted-to.pdf, id=62, 361.35p
 t x 216.81pt>
 File: Gnuplot/Error_vs_time_for_128_grid_points-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use Gnuplot/Error_vs_time_for_128_grid_points-eps-converted-to.pdf>
 Package pdftex.def Info: Gnuplot/Error_vs_time_for_128_grid_points-eps-converte
-d-to.pdf  used on input line 192.
-(pdftex.def)             Requested size: 379.41768pt x 227.65059pt.
+d-to.pdf  used on input line 219.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<code.pdf, id=38, 597.55246pt x 845.07724pt>
+<code.pdf, id=63, 597.55246pt x 845.07724pt>
 File: code.pdf Graphic file (type pdf)
 <use code.pdf>
-Package pdftex.def Info: code.pdf  used on input line 204.
-(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
-n <1.7>, but at most version <1.5> allowed
-File: code.pdf Graphic file (type pdf)
-<use code.pdf>
-Package pdftex.def Info: code.pdf  used on input line 204.
-(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
-n <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
-n <1.7>, but at most version <1.5> allowed
-<code.pdf, id=41, page=1, 597.55246pt x 845.07724pt>
-File: code.pdf Graphic file (type pdf)
-<use code.pdf, page 1>
-Package pdftex.def Info: code.pdf , page1 used on input line 204.
-(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
-File: code.pdf Graphic file (type pdf)
-<use code.pdf, page 1>
-Package pdftex.def Info: code.pdf , page1 used on input line 204.
-(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
-[6 <./Gnuplot/Error_vs_time_for_128_grid_points-eps-converted-to.pdf>]
-File: code.pdf Graphic file (type pdf)
-<use code.pdf, page 1>
-Package pdftex.def Info: code.pdf , page1 used on input line 204.
-(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
-File: code.pdf Graphic file (type pdf)
-<use code.pdf, page 1>
-Package pdftex.def Info: code.pdf , page1 used on input line 204.
-(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
-File: code.pdf Graphic file (type pdf)
-<use code.pdf, page 1>
-Package pdftex.def Info: code.pdf , page1 used on input line 204.
-(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
- [7 <./code.pdf>]
-File: code.pdf Graphic file (type pdf)
-<use code.pdf>
-Package pdftex.def Info: code.pdf  used on input line 205.
+Package pdftex.def Info: code.pdf  used on input line 233.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -383,7 +454,42 @@ pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
 File: code.pdf Graphic file (type pdf)
 <use code.pdf>
-Package pdftex.def Info: code.pdf  used on input line 205.
+Package pdftex.def Info: code.pdf  used on input line 233.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<code.pdf, id=66, page=1, 597.55246pt x 845.07724pt>
+File: code.pdf Graphic file (type pdf)
+<use code.pdf, page 1>
+Package pdftex.def Info: code.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: code.pdf Graphic file (type pdf)
+<use code.pdf, page 1>
+Package pdftex.def Info: code.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
+[7 <./Gnuplot/Error_vs_time_for_128_grid_points-eps-converted-to.pdf>]
+File: code.pdf Graphic file (type pdf)
+<use code.pdf, page 1>
+Package pdftex.def Info: code.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
+File: code.pdf Graphic file (type pdf)
+<use code.pdf, page 1>
+Package pdftex.def Info: code.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
+File: code.pdf Graphic file (type pdf)
+<use code.pdf, page 1>
+Package pdftex.def Info: code.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
+ [8 <./code.pdf>]
+File: code.pdf Graphic file (type pdf)
+<use code.pdf>
+Package pdftex.def Info: code.pdf  used on input line 234.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -391,7 +497,15 @@ pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
 File: code.pdf Graphic file (type pdf)
 <use code.pdf>
-Package pdftex.def Info: code.pdf  used on input line 205.
+Package pdftex.def Info: code.pdf  used on input line 234.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+File: code.pdf Graphic file (type pdf)
+<use code.pdf>
+Package pdftex.def Info: code.pdf  used on input line 234.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -401,66 +515,66 @@ n <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<code.pdf, id=75, page=2, 597.55246pt x 845.07724pt>
+<code.pdf, id=99, page=2, 597.55246pt x 845.07724pt>
 File: code.pdf Graphic file (type pdf)
 <use code.pdf, page 2>
-Package pdftex.def Info: code.pdf , page2 used on input line 205.
+Package pdftex.def Info: code.pdf , page2 used on input line 234.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: code.pdf Graphic file (type pdf)
 <use code.pdf, page 2>
-Package pdftex.def Info: code.pdf , page2 used on input line 205.
+Package pdftex.def Info: code.pdf , page2 used on input line 234.
 (pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
 File: code.pdf Graphic file (type pdf)
 <use code.pdf, page 2>
-Package pdftex.def Info: code.pdf , page2 used on input line 205.
+Package pdftex.def Info: code.pdf , page2 used on input line 234.
 (pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
 File: code.pdf Graphic file (type pdf)
 <use code.pdf, page 2>
-Package pdftex.def Info: code.pdf , page2 used on input line 205.
+Package pdftex.def Info: code.pdf , page2 used on input line 234.
 (pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
 File: code.pdf Graphic file (type pdf)
 <use code.pdf, page 2>
-Package pdftex.def Info: code.pdf , page2 used on input line 205.
+Package pdftex.def Info: code.pdf , page2 used on input line 234.
 (pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
-[8 <./code.pdf>]
+[9 <./code.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./code.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<code.pdf, id=79, page=3, 597.55246pt x 845.07724pt>
+<code.pdf, id=103, page=3, 597.55246pt x 845.07724pt>
 File: code.pdf Graphic file (type pdf)
 <use code.pdf, page 3>
-Package pdftex.def Info: code.pdf , page3 used on input line 205.
-(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
-File: code.pdf Graphic file (type pdf)
-<use code.pdf, page 3>
-Package pdftex.def Info: code.pdf , page3 used on input line 205.
+Package pdftex.def Info: code.pdf , page3 used on input line 234.
 (pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
 File: code.pdf Graphic file (type pdf)
 <use code.pdf, page 3>
-Package pdftex.def Info: code.pdf , page3 used on input line 205.
+Package pdftex.def Info: code.pdf , page3 used on input line 234.
 (pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
-[9 <./code.pdf>] (main.aux) ) 
+File: code.pdf Graphic file (type pdf)
+<use code.pdf, page 3>
+Package pdftex.def Info: code.pdf , page3 used on input line 234.
+(pdftex.def)             Requested size: 388.4045pt x 549.2937pt.
+[10 <./code.pdf>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 4077 strings out of 480898
- 57653 string characters out of 2908368
- 309124 words of memory out of 3000000
- 19893 multiletter control sequences out of 15000+200000
+ 4158 strings out of 480898
+ 59749 string characters out of 2908368
+ 311515 words of memory out of 3000000
+ 19967 multiletter control sequences out of 15000+200000
  538203 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,19n,49p,837b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmex10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb>
-Output written on main.pdf (10 pages, 306071 bytes).
+ 41i,19n,49p,837b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on main.pdf (11 pages, 330268 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

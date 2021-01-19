@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {a.}Analytical Solution}{1}%
 \contentsline {section}{\numberline {b.}Numerical Scheme}{3}%
 \contentsline {section}{\numberline {c.}Numerical simulations}{4}%
-\contentsline {section}{\numberline {d.}Solution Plot for 128 grid points}{5}%
-\contentsline {section}{\numberline {e.}Average Error in the Domain at each time step}{6}%
-\contentsline {section}{\numberline {A}Appendix A: C code}{7}%
+\contentsline {section}{\numberline {d.}Solution plot for 128 grid points}{5}%
+\contentsline {section}{\numberline {e.}Average error in the domain}{7}%
+\contentsline {section}{\numberline {A}Appendix A: C code}{8}%
